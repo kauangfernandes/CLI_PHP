@@ -1,6 +1,7 @@
 <?php
     date_default_timezone_set("America/Sao_Paulo");
 
+    require_once "./config.php";
     require_once "./cli/interfaces/commandInterface.php";
     require_once "./cli/commands/makerCommand.php";
     require_once "./cli/commands/helpCommand.php";
